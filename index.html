@@ -2,8 +2,136 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
+    <title>agrios</title>
   </head>
-  <body></body>
+  <body class="font-[Manrope,sans-serif]">
+    <div id="app">
+      <header>
+        <nav class="flex flex-col items-center justify-center mt-5">
+          <div
+            class="nav-top w-[min(80vw,1200px)] flex items-center justify-between gap-10 m-2.5"
+          >
+            <div class="nav-brand">
+              <img src="public/images/brand_logo.png" alt="" />
+            </div>
+            <div class="nav-contact flex items-center justify-center gap-10">
+              <div
+                class="social-links flex items-center justify-center gap-2.5"
+              >
+                <div
+                  class="bg-[#f8f7f0] w-10 h-10 flex items-center justify-center rounded-full"
+                >
+                  <img src="public/images/twitter-icon.png" alt="" />
+                </div>
+                <div
+                  class="bg-[#f8f7f0] w-10 h-10 flex items-center justify-center rounded-full"
+                >
+                  <img src="public/images/facebook-icon.png" alt="" />
+                </div>
+                <div
+                  class="bg-[#f8f7f0] w-10 h-10 flex items-center justify-center rounded-full"
+                >
+                  <img src="public/images/pinterest-icon.png" alt="" />
+                </div>
+                <div
+                  class="bg-[#f8f7f0] w-10 h-10 flex items-center justify-center rounded-full"
+                >
+                  <img src="public/images/instagram-icon.png" alt="" />
+                </div>
+              </div>
+
+              <div
+                class="contact-info-container flex items-center justify-center gap-5"
+              >
+                <div class="flex items-center gap-5">
+                  <div><img src="public/images/phone-icon.png" alt="" /></div>
+                  <div>
+                    <p class="text-xs text-gray-500">Call anytime</p>
+                    <p class="text-sm font-semibold">+ 98 (000) - 9630</p>
+                  </div>
+                </div>
+
+                <div class="h-12 w-px bg-gray-200"></div>
+
+                <div class="flex items-center gap-5">
+                  <div><img src="public/images/mail-icon.png" alt="" /></div>
+                  <div>
+                    <p class="text-xs text-gray-500">Send Email</p>
+                    <p class="text-sm font-semibold">ambed@agrios.com</p>
+                  </div>
+                </div>
+
+                <div class="h-12 w-px bg-gray-200"></div>
+
+                <div class="flex items-center gap-5">
+                  <div>
+                    <img src="public/images/location-icon.png" alt="" />
+                  </div>
+                  <div>
+                    <p class="text-xs text-gray-500">380 St Kilda Road</p>
+                    <p class="text-sm font-semibold">Melbourne, Australia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="bg-[#f8f7f1] w-screen flex justify-center">
+            <div
+              class="nav-main w-[min(80vw,1200px)] flex items-center justify-between gap-10 pt-2.5 pb-5"
+            >
+              <div class="nav-links flex items-center gap-10 text-base">
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-extrabold">Home</p>
+                  <img src="public/images/dropdown-icon.png" alt="" />
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">About</p>
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">Services</p>
+                  <img src="public/images/dropdown-icon-grey.png.png" alt="" />
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">Projects</p>
+                  <img src="public/images/dropdown-icon-grey.png.png" alt="" />
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">News</p>
+                  <img src="public/images/dropdown-icon-grey.png.png" alt="" />
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">Shop</p>
+                  <img src="public/images/dropdown-icon-grey.png.png" alt="" />
+                </div>
+                <div class="flex justify-center items-center gap-1">
+                  <p class="font-semibold text-[#878680]">Contact</p>
+                </div>
+              </div>
+              <div class="nav-actions flex justify-center items-center gap-5">
+                <div class="h-8 w-px bg-gray-200"></div>
+                <div><img src="public/images/search-icon.png" alt="" /></div>
+                <div class="relative">
+                  <img src="public/images/cart-icon.png" alt="" />
+                  <div
+                    class="absolute bg-[#4baf47] flex justify-center text-xs text-white items-center top-0 -right-0 transform translate-x-1/3 -translate-y-1/3 rounded-full w-4 h-4"
+                  >
+                    <p>0</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+  </body>
 </html>
